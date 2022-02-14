@@ -1,0 +1,516 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* HEADER SECTION STARTS */
+.header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo img {
+  width: 60px;
+}
+.header .logo {
+  width: 10%;
+}
+.header .nav-links {
+  width: 88%;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  padding: 10px;
+}
+.header .nav-links .row1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.4px solid lightgray;
+  padding-bottom: 5px;
+}
+.header .nav-links .row2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+/* HEADER SECTION ENDS */
+
+/* SLIDER SECTION STARTS */
+.slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/banner.webp');
+  background-size: cover;
+}
+.slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+/* SLIDER SECTION ENDS */
+
+/* SECTION1 STARTS */
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.section1 h1 {
+  text-align: center;
+}
+.section1 p {
+  text-align: center;
+}
+.section1 .col img {
+  width: 250px;
+}
+.section1 .col {
+  border: solid gray 1px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* SECTION2 STARTS */
+.section2 {
+  background-image: url('../img/B2B\ Banner-01-01.webp');
+  background-size: contain;
+  height: 70vh;
+  background-repeat: no-repeat;
+}
+.section2 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: maroon;
+  position: relative;
+  top: 31%;
+  left: 44%;
+  border-radius: 4px;
+}
+
+.section3 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: -90px;
+}
+.section3 img {
+  width: 350px;
+}
+.section3 h1 {
+  padding: 20px 0 20px 0;
+}
+.section3 a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+/* SECTION4 STARTS */
+
+.section4-links .links {
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.section4-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  margin: 30px;
+}
+.section4 {
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+}
+.section4 .col {
+  margin: 20px;
+  text-align: center;
+  font-size: small;
+}
+.section4 img {
+  width: 200px;
+}
+
+/* section5 starts */
+.section5 {
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 100px;
+}
+.section5 .col1 {
+  width: 38%;
+  background-image: url('../img/africa-home-block-1-t.webp');
+  height: 650px;
+  background-size: cover;
+  text-align: center;
+}
+.section5 .col1 h2 {
+  color: white;
+  padding-top: 50px;
+}
+.section5 .col2 {
+  width: 58%;
+}
+.section5 .col2 .img1,
+.img2 {
+  height: 310px;
+}
+.section5 .col2 h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.section5 .col2 .img1 {
+  background-image: url('../img/africa-home-block-2-t.webp');
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.section5 .col2 .img2 {
+  background-image: url('../img/africa-home-block-3-t.webp');
+  margin-top: 15px;
+  background-size: cover;
+}
+
+/* SECTION6 STARTS */
+.section6 {
+  width: 80%;
+  margin: auto;
+}
+.section6 .rol {
+  display: flex;
+  justify-content: space-between;
+}
+.section6 h1,
+p {
+  text-align: center;
+  margin: 30px;
+}
+
+/* section6-social-icons */
+.section6-social-icons {
+  width: 80%;
+  margin: auto;
+}
+.section6-social-icons .rol {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.section6-social-icons h1,
+p {
+  text-align: center;
+  margin: 30px;
+}
+.section6-services {
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+.section6-services .rol {
+  display: flex;
+  width: 100%;
+}
+.section6-services .rol1 {
+  width: 33%;
+}
+
+/* footer-section start */
+.footer-section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.footer-section .col1 {
+  width: 18%;
+  margin: 10px;
+}
+.footer-section .col1 ul li {
+  list-style: none;
+  font-size: 12px;
+  color: gray;
+  margin: 10px;
+  padding-left: 10px;
+}
+.footer-section .v-line {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.footer-icons .first-icons {
+  display: flex;
+}
+/* footer-section end */
+
+/* Home and Appliances */
+.header-h5 {
+  width: 95%;
+  margin: auto;
+}
+.homeapp-section1-h1 {
+  text-align: center;
+}
+.homeapp-section1 {
+  margin: 30px;
+  width: 60%;
+  margin: auto;
+}
+.homeapp-section1-p {
+  text-align: center;
+}
+.homeapp-section1-slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/Home Appliance/africa-homeappliances-hero-1-d.jpg');
+  background-size: cover;
+}
+.homeapp-section1-slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+}
+.homeapp-section1-slider-h1 {
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 70%;
+}
+.homeapp-section2-h1{
+  text-align: center;
+}
+
+.homeapp-section3-link a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 11px;
+  position: absolute;
+  border-radius: 5px;
+}
+.homeapp-section3{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+
+}
+.homeapp-section4{
+  margin-top: 80px;
+}
+.homeapp-section4-slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/Home Appliance/africa-homeappliances-supercategory-5\(1\).jpg');
+  background-size: cover;
+}
+.homeapp-section4-slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: relative;
+  top: 50%;
+  left: 70%;
+}
+.homeapp-section4-slider-h1 {
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 70%;}
+  
+/* .homeapp-section4-2rol starts */
+  .homeapp-section4-2rol{
+    display: flex;
+    
+  }
+  .homeapp-section4-2rol-slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/Home Appliance/africa-homeappliances-supercategory-6\(1\).jpg');
+  background-size: 1500px;
+}
+
+  .homeapp-section4-2rol2-slider {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(black, white );
+  background-size: cover;
+}
+.homeapp-section4-2rol2-slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: relative;
+  top: 50%;
+  left: 30%;
+}
+.homeapp-section4-2rol2-slider-h1 {
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 30%;}
+
+  /* tv/audio starts */
+
+  .homeapp-section1-tv-slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-hero-2-d.jpg');
+  background-size: cover;
+}
+.homeapp-section1-tv-slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+}
+.homeapp-section1-tv-slider-h1 {
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 70%;
+}
+
+
+.homeapp-section4-tv{
+  margin-top: 80px;
+}
+.homeapp-section4-tv-slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-pdp-1-d.jpg');
+  background-size: cover;
+}
+.homeapp-section4-tv-slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.homeapp-section1-slider-h1 {
+  color: black;
+  position: relative;
+  top: 40%;
+  left: 50%;}
+
+.homeapp-section4b-tv-slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-pdp-2-d.jpg');
+  background-size: cover;
+}
+.homeapp-section4b-tv-slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.homeapp-section1-slider-h1 {
+  color: white;
+  position: relative;
+  top: 40%;
+  left: 50%;}
+
+
+  .homeapp-section4c-tv-slider {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-pdp-3-d.jpg');
+  background-size: cover;
+}
+.homeapp-section4c-tv-slider a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 15px;
+  position: relative;
+  top: 50%;
+  left: 10%;
+}
+.homeapp-section1-slider-h1 {
+  color: white;
+  position: relative;
+  top: 40%;
+  left: 10%;}
+
+  .section5-tv {
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 20px;
+}
+.section5-tv .col1 {
+  width: 38%;
+  background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-block-3-d.jpg');
+  height: 650px;
+  background-size: cover;
+  text-align: center;
+}
+.section5-tv .col1 h2 {
+  color: white;
+  padding-top: 50px;
+}
+.section5-tv .col2 {
+  width: 58%;
+}
+.section5-tv .col2 .img1,
+.img2 {
+  height: 310px;
+}
+.section5-tv .col2 h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+}
+.section5-tv .col2 .img1 {
+  background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-block-1-d.jpg');
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.section5-tv .col2 .img2 {
+  background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-block-2-d.jpg');
+  margin-top: 15px;
+  background-size: cover;
+}
+
